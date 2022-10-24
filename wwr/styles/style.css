@@ -54,17 +54,18 @@ nav a:hover {
 }
 
 .book {
-    background-color: white;
-    color:#087E8B;
+    background-color: #6f7e64;
+    color:#FF8552;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
 }
 
 .join {
-    background-color: #69DC9E;
-    color: #087E8B;
+    background-color: #6f7364;
+    color: #FF8552;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
