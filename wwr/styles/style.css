@@ -38,7 +38,7 @@ main section{
 
 body {
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif, ; 
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -188,6 +188,7 @@ footer p a:hover {
     border: 10px solid #d9c2a3;   
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7e64;
+    width: 100%;
 }
 .card-img:hover {
     opacity: .6;
@@ -220,6 +221,12 @@ nav {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 10fr;
 }
 
 @media screen and (max-width: 900px) {
