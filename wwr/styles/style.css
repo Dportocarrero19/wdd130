@@ -229,6 +229,44 @@ nav {
     grid-template-columns: 10fr;
 }
 
+
+.river-title {
+    color:#087E8B ;
+    background-color: #69DC9E;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size:2em;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.pic-img {
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.riverone-card {
+    background-color: #087E8B;
+    color:#FF8552;
+}
+
+.rivertwo-card {
+    background-color: #087E8B;
+    color:#FF8552;
+}
+
+.riverthree-card {
+    background-color: #087E8B;
+    color:#FF8552;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
