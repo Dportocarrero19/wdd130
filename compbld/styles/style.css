@@ -110,6 +110,26 @@ h2 {
     line-height: 2;
 }
 
+.instal-grid {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 300px 90px;
+
+}
+
+#paragraph {
+    font-size: 16px;
+}
+
+.instal-title {
+    color: #F9DC5C;
+    background-color: #087E8B;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size:2em;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 900px) {
     #parts-grid {
