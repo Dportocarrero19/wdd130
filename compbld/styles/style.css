@@ -118,8 +118,13 @@ h2 {
 }
 
 #paragraph {
-    font-size: 16px;
+    font-size: 18px;
 }
+
+#paragraph-two {
+    font-size: 18px;
+}
+
 
 .instal-title {
     color: #F9DC5C;
@@ -132,7 +137,7 @@ h2 {
 
 
 @media screen and (max-width: 900px) {
-    #parts-grid {
+    .parts-grid, .instal-grid {
         display: block;
         height: auto;
     }
