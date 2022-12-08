@@ -140,6 +140,7 @@ h2 {
     .parts-grid, .instal-grid {
         display: block;
         height: auto;
+        text-align: center;
     }
     nav, footer {
         flex-direction: column;
@@ -150,7 +151,8 @@ h2 {
     }
     .info-card,.cpu-card,.ram-card,.motherboard-card,.case-card,.cooler-card,.storage-card,.power-card {
         margin: 50px auto;
-        width: 60%;
+        width: 250px;
+        height: 250px;
     }  
     #background {
         display: none;
