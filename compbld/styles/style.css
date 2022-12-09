@@ -151,7 +151,7 @@ h2 {
         padding: 15px;
     }
     .info-card,.cpu-card,.ram-card,.motherboard-card,.case-card,.cooler-card,.storage-card,.power-card {
-        
+        margin-right: -50%;
         width: 50%;
         
     }  
