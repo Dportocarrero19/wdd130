@@ -125,6 +125,21 @@ h2 {
     font-size: 18px;
 }
 
+.faqs-grid {
+    display: grid;
+    grid-template-columns: 700px 800px;
+    grid-template-rows: 300px 250px;
+}
+
+.faqs-title {
+    color: #F9DC5C;
+    background-color: #087E8B;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size:2em;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 .instal-title {
     color: #F9DC5C;
@@ -135,6 +150,9 @@ h2 {
     text-align: center;
 }
 
+.paragraph3-class {
+    margin-bottom: -150px;
+}
 
 @media screen and (max-width: 900px) {
     .parts-grid, .instal-grid {
