@@ -172,8 +172,12 @@ h2 {
         width: 50%;
         
     }
-    #cpu-desc,#ram-desc,#motherboard-desc,#case-desc,#cooler-desc,#storage-desc,#power-desc,.paragraph3-desc,#faqs-grid {
+    #cpu-desc,#ram-desc,#motherboard-desc,#case-desc,#cooler-desc,#storage-desc,#power-desc,#faqs-grid {
         margin-right: -100%;
+    }
+    .paragraph3-desc{
+        margin-right: -100%;
+        margin-bottom: 150px;
     }  
     #background {
         display: none;
