@@ -164,6 +164,8 @@ h2 {
         height: auto;
         text-align: center;
         margin-right: -50%;
+        width: 250px;
+        height: auto;
     }
     nav, footer {
         flex-direction: column;
