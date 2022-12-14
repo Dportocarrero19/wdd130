@@ -69,7 +69,7 @@ footer p {
 p {
     font-family: garamond, Helvetica, sans-serif; 
     font-size: 25px;
-    margin-right: 250px;
+    margin-right: 50px;
 }
 
 h2 {
@@ -96,6 +96,9 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pic-img:hover {
@@ -112,23 +115,24 @@ h2 {
 
 .instal-grid {
     display: grid;
-    grid-template-columns: 800px 800px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 300px 90px;
 
 }
 
 #paragraph {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #paragraph-two {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .faqs-grid {
     display: grid;
-    grid-template-columns: 700px 800px;
+    grid-template-columns: 2fr 3fr;
     grid-template-rows: 300px 250px;
+
 }
 
 .faqs-title {
