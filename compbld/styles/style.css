@@ -99,6 +99,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .pic-img:hover {
@@ -164,8 +165,6 @@ h2 {
         height: auto;
         text-align: center;
         margin-right: -50%;
-        width: 250px;
-        height: auto;
     }
     nav, footer {
         flex-direction: column;
@@ -176,7 +175,10 @@ h2 {
     }
     .info-card,.cpu-card,.ram-card,.motherboard-card,.case-card,.cooler-card,.storage-card,.power-card {
         width: 50%;
-        
+    }
+    .pic-img {
+        width: 50%;
+        height: auto;
     }
     #cpu-desc,#ram-desc,#motherboard-desc,#case-desc,#cooler-desc,#storage-desc,#power-desc,#faqs-grid {
         margin-right: -100%;
