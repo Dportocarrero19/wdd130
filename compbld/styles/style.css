@@ -164,7 +164,10 @@ h2 {
         display: block;
         height: auto;
         text-align: center;
-        margin-right: -100%;
+        margin-right: -50%;
+    }
+    .p {
+        margin-right: 100%;
     }
     nav, footer {
         flex-direction: column;
