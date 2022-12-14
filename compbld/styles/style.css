@@ -166,9 +166,6 @@ h2 {
         text-align: center;
         margin-right: -50%;
     }
-    .p {
-        margin-right: 100%;
-    }
     nav, footer {
         flex-direction: column;
     }
@@ -196,5 +193,8 @@ h2 {
     }
     footer {
         margin-top: 25px;
+    }
+    .p {
+        margin-right: 1000%;
     }
 }
