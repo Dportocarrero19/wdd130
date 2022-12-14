@@ -166,9 +166,6 @@ h2 {
         text-align: center;
         margin-right: -50%;
     }
-    .p {
-        margin-right: -50%;
-    }
     nav, footer {
         flex-direction: column;
     }
@@ -187,7 +184,7 @@ h2 {
         margin-right: -100%;
     }
     #paragraph3-desc{
-        margin-right: -50%;
+        margin-right: -80%;
         margin-bottom: 150px;
         text-align: center;
     }  
